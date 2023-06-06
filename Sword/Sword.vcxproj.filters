@@ -5,6 +5,15 @@
     <ClCompile Include="src\basic\Log.cpp" />
     <ClCompile Include="src\basic\BasicDataType.cpp" />
     <ClCompile Include="src\basic\Math.cpp" />
+    <ClCompile Include="src\basic\ClassStudy.cpp" />
+    <ClCompile Include="src\basic\StaticLearn.cpp" />
+    <ClCompile Include="src\basic\ConstructFunc.cpp" />
+    <ClCompile Include="src\basic\ExtendsClass.cpp" />
+    <ClCompile Include="src\basic\VirtualFunction.cpp" />
+    <ClCompile Include="src\basic\VirtualPure.cpp" />
+    <ClCompile Include="src\basic\Visibility.cpp" />
+    <ClCompile Include="src\basic\ArrayLearn.cpp" />
+    <ClCompile Include="src\basic\String.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\basic\Log.h" />
