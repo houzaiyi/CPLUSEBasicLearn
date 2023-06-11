@@ -1,6 +1,6 @@
 //#include <iostream> //预处理语句,找到iostream文件(头文件)，并把他里面的代码复制进来,相当于引入方法
 //#include <string> 
-//using namespace std;
+////using namespace std;  //不要用 因为会降低代码可读性
 //
 //
 //void Increment(int* value) //创建一个value指针
@@ -34,15 +34,15 @@
 //
 //    //
 //    ////字符串型**************************** C风格字符串： char 变量名[] = "字符串值";   （2）C++风格字符串： string 变量名 = "字符串值";(使用C++风格字符串时，需包含头文件#include <string> 以及(using namespace std;)。)
-//    //char variablecStr[] = "hellow c str";
-//    //string cppStr = "hellowstr";
+//    //char variablecStr[] = "hellow c str";//字符数组
+//    //std::string cppStr = "hellowstr";//超过15为会new分配内存，不超过默认在栈上
 //
 //
 //    ////布尔类型 bool 占一个字节，只有两个值 true(非0);false(0)   
 //
 //    //bool flage = true;
 //   
-//   //******************************指针就是保存内存地址的整数(int)，一条街道上的一个住户的地址。  
+//   //******************************指针就是保存内存地址的整数(int)，一条街道上的一个住户的地址。  拿到地址可以找到住户
 // 
 //     //创建一个指针(自己向电脑内存申请一个内存地址，电脑给你分配空间后给你一个地址，让你来找到它。)
 //    // &a   意思是hia小a你好请问你的地址是什么，获得地址。
@@ -54,7 +54,7 @@
 //    // memset作用是将某一块内存中的内容全部设置为指定的值， 这个函数通常为新申请的内存做初始化工作。
 //    //memset(buffer,0,8);
 //    //buffer地址是:0x000002007611c080
-//    //char** ptr = &buffer;
+//    //char** ptr = &buffer;//指向指针的指针 指针指向另一个指针的地址
 //    //delete[] buffer; //释放内存
 //    //ptr 的地址是其实也是 0x000002007611c080
 //

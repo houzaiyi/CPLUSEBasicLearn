@@ -1,8 +1,6 @@
 //#include <iostream>
 //
 //
-//
-//
 //class Log //日志打印函数
 //{
 //public:

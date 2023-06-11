@@ -7,7 +7,7 @@
 //class Entity
 //{
 //public:
-//	virtual std::string GetName() //加虚函数virtual,不加入的话下面出错误,找不到子类的放啊
+//	virtual std::string GetName() //加虚函数virtual,不加入的话下面出错误,找不到子类的方法
 //	{
 //		return "Entity";
 //	}
